@@ -24,3 +24,5 @@ $ git add .
 $ git commit -m "add a file demo.py"
 $ git push -u origin master
 ```
+
+[git教程：廖雪峰老师](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
