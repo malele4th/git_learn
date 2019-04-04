@@ -1,4 +1,4 @@
-## 使用 git 把本地代码上传/更新到 github
+# 1、使用 git 把本地代码上传/更新到 github
 
 1 在github上新建一个仓库（已有不用再建）
 
@@ -29,3 +29,12 @@ $ git push -u origin master
 ```
 
 [git教程：廖雪峰老师](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+# 2、github 的 README.md图片设置
+
+```
+<div align="center">
+<img src="https://github.com/malele4th/xxx/blob/master/xxx/xxx.png" width=80% height=80% />  
+</div>
+```
+
