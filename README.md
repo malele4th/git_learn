@@ -1,5 +1,7 @@
 ## 使用 git 把本地代码上传/更新到 github
 
+<font color="#dd0000">Git Bash</font><br /> 
+
 1 在github上新建一个仓库（已有不用再建）
 
 2 下载仓库到本地
