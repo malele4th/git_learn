@@ -1,7 +1,7 @@
-git is a distributed version control system.
-git is a free software distributed under the GPL.
-git has a mutable index called stage.
-git tracks changes.
-git tracks changes of files.
-Creating a new branch is quick.
-Creating a new branch is quick And simple.
+## 使用 git 把本地代码上传/更新到 github
+
+1 在github上新建一个仓库（已有不用再建）
+2 
+```
+$ git clone https://github.com/malele4th/git_learn.git
+```
