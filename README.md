@@ -30,7 +30,10 @@ $ git push -u origin master
 
 [git教程：廖雪峰老师](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
-# 2、github 的 README.md图片设置
+# 2、github中的README.md图片设置
+
+* 将图片居中
+* 宽、高按比例缩小
 
 ```
 <div align="center">
