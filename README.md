@@ -12,7 +12,9 @@
 
 6 提交信息
 
-7 上传到远程 github
+7 抓取并合并远程仓库全部内容(git pull origin master)
+
+8 上传到远程 github
 
 ```
 $ git clone https://github.com/malele4th/git_learn.git
@@ -22,6 +24,7 @@ $ git config --global user.name "malele4th"
 
 $ git add . 
 $ git commit -m "add a file demo.py"
+$ git pull origin master
 $ git push -u origin master
 ```
 
