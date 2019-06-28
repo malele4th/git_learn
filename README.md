@@ -41,3 +41,22 @@ $ git push -u origin master
 </div>
 ```
 
+# 3、centos系统 git push 报错解决
+$ git push -u origin master
+
+error: The requested URL returned error: 403 while accessing https://github.com/malele4th/HttpRequest.git/info/refs
+
+fatal: HTTP request failed
+
+```
+vim .git/config
+
+# 修改
+[remote "origin"]
+	url = https://github.com/malele4th/HttpRequest.git
+
+# 为：
+[remote "origin"]
+	url = https://malele4th@github.com/malele4th/HttpRequest.git
+```
+
