@@ -59,4 +59,12 @@ vim .git/config
 [remote "origin"]
 	url = https://malele4th@github.com/malele4th/HttpRequest.git
 ```
+# 4、创建Git分支
+```
+git branch          # 查看分支
+git branch dev      # 创建分支 dev是分支名
+git checkout dev    # 切换的本地分支
+git push origin dev # 提交该分支到远程仓库
+git pull origin dev # 从远处获取dev
+```
 
