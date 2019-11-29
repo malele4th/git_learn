@@ -68,3 +68,9 @@ git push origin dev # 提交该分支到远程仓库
 git pull origin dev # 从远处获取dev
 ```
 
+# 5、clone历史指定版本
+```
+git log  ## 找到版本号
+git checkout b74be8e78ff*****0a15d04967  ## 就回退到指定版本了
+```
+
