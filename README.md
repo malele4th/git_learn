@@ -66,6 +66,16 @@ git branch dev      # 创建分支 dev是分支名
 git checkout dev    # 切换的本地分支
 git push origin dev # 提交该分支到远程仓库
 git pull origin dev # 从远处获取dev
+
+
+步骤: 查看、创建、切换、查看、添加、提交、上传
+git branch
+git branch dev
+git checkout dev
+git branch
+git add .
+git commit -m "test"
+git push origin dev
 ```
 
 # 5、clone历史指定版本
