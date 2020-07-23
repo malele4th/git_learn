@@ -91,3 +91,14 @@ git pull origin <远程分支名>:<本地分支名>  # 将远程指定分支拉�
 在克隆远程项目的时候，本地分支会自动与远程仓库建立追踪关系，可以使用默认的origin来替代远程仓库名
 ```
 
+# 7、合并多次commit
+```
+git log               ## 查看提交历史
+git rebase -i HEAD~4  ## 需要合并的最近4个分支, 执行这行命令后自动进入一个界面
+pick/squash           ## pick是保留commit, squash 表示仍然提交，但是融合到以前的提交
+wq                    ## 保存后，进入编辑commit注释的界面，再wq保存
+git push origin dev
+
+```
+
+
