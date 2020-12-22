@@ -82,6 +82,9 @@ git push origin dev
 ```
 git log  ## 找到版本号
 git checkout b74be8e78ff*****0a15d04967  ## 就回退到指定版本了
+
+https://blog.csdn.net/qq_27818541/article/details/79964220
+
 ```
 
 # 6、从指定分支更新代码到本地
