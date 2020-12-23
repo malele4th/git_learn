@@ -103,8 +103,21 @@ git push origin dev
 # 8、版本回退方法
 参考博客：http://blog.csdn.net/fuchaosz/article/details/52170105
 
+### 1 本地分支版本回退
+如果你在本地做了错误提交，那么回退版本的方法很简单
+
 ```
+git reflog               #  找到要回退的版本的commit id
+git reset --hard Obfafd  #  接着回退版本, 0bfafd 就是你要回退的版本的 commit id 的前面几位
 ```
 
+### 2 自己远程分支版本回退
+如果你的错误提交已经推送到自己的远程分支了，那么就需要回滚远程分支了。
+```
+git reflog 
+git reset --hard Obfafd  # 首先要回退本地分支
+git push -f              # 紧接着强制推送到远程分支
+```
+注意：本地分支回滚后，版本将落后远程分支，必须使用强制推送覆盖远程分支，否则无法推送到远程分支
 
-
+### 3 公共远程分支版本回退
