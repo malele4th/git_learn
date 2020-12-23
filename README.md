@@ -81,10 +81,7 @@ git push origin dev
 # 5、clone历史指定版本
 ```
 git log  ## 找到版本号
-git checkout b74be8e78ff*****0a15d04967  ## 就回退到指定版本了
-
-https://blog.csdn.net/qq_27818541/article/details/79964220
-
+git checkout b74be8e78ff*****0a15d04967  ## 本地分支就回退到指定版本了
 ```
 
 # 6、从指定分支更新代码到本地
@@ -103,5 +100,11 @@ wq                    ## 保存后，进入编辑commit注释的界面，再wq�
 git push origin dev
 
 ```
+# 8、版本回退方法
+参考博客：http://blog.csdn.net/fuchaosz/article/details/52170105
+
+```
+```
+
 
 
